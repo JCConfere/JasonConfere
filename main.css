@@ -1,0 +1,488 @@
+html {
+	line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 1.2;
+}
+
+
+body {
+    padding 0;
+    margin: 0;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background-color: black;
+
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#nav {
+    background-color: black;
+}
+
+.navbar-header a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+	display: block;
+}
+
+.navbar-brand {
+	font-size: 20px;
+}
+
+#nav-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    float: left;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li.a {
+	font-size: 14px;
+}
+
+.nav>li {
+	font-size: 18px;
+}
+
+#nav li a:visited {
+
+
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: deepskyblue;
+    text-decoration: none;
+}
+
+.format {
+	font-size: 24px;
+}
+/* ================================   ABOUT ME ============================= */
+
+
+
+.banner {
+  font-weight: bolder;
+  font-size: 64px;
+	color: rgb(37, 39, 39);
+}
+
+.latin {
+  margin-top: -4px;
+}
+
+.webdev {
+	font-size: 56px;
+	text-shadow: -2px 2px 2px rgb(255, 255, 255);
+
+}
+
+.break {
+
+}
+
+.portrait {
+  float: left;
+  display: block;
+	border-style: outset;
+	border-color: black;
+	border-radius: 12px;
+	width: 100%;
+}
+
+.intro {
+	color: rgb(37, 39, 39);
+}
+
+
+
+.about {
+  font-size: 24px;
+	color: orange;
+	width: 200px;
+  text-decoration: none;
+	display: inline-block;
+	width: 75%;
+}
+
+
+
+.row1 {
+  margin-top: 40px;
+  background: linear-gradient(rgb(226, 242, 242), rgb(191, 195, 195));
+}
+
+.row2 {
+  background: linear-gradient(rgb(191, 195, 195), rgb(113, 120, 120) );
+}
+
+/* =======================  Portfolio CSS  ====================  */
+
+.row3 {
+  background: linear-gradient(rgb(113, 120, 120), rgb(61, 65, 65) );
+}
+
+.row4 {
+	background: linear-gradient(rgb(61, 65, 65), rgb(37, 39, 39) );
+
+}
+
+.row5 {
+	background: linear-gradient(rgb(37, 39, 39), rgb(5, 5, 5) );
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.portfolio-header {
+	font-weight: lighter;
+	font-size: 56px;
+	margin-top: 80px;
+	text-shadow: -2px 2px 2px rgb(191, 195, 195);
+}
+
+
+
+.project {
+	background-color: rgba(255, 255, 255, 0.25);
+	max-width: 400px;
+	max-height: 640px;
+	margin-bottom: 32px;
+}
+
+.photo {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 24px;
+
+}
+
+
+
+.subtitle {
+	font-size: 16px;
+	margin: 16px;
+}
+
+#myCarousel {
+  background: linear-gradient(rgb(113, 120, 120), rgb(61, 65, 65) );
+
+}
+
+.carousel-container {
+	box-shadow: 5px  8px 7px rgb(0,0,0);
+	padding: 0px;
+}
+
+.carousel-caption {
+  position: relative;
+  text-align: center;
+  width: 60%;
+	color: rgb(191, 195, 195);
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.spacer {
+  margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+
+/* ==============================================  Skills CSS =================================== */
+
+.skills-header {
+	font-weight: lighter;
+	font-size: 56px;
+	margin-top: 80px;
+	color: rgb(113, 120, 120);
+	text-shadow: -2px 2px 2px #000;
+}
+
+.lighter {
+	color: rgb(191, 195, 195);
+	margin-bottom: 40px;
+	text-shadow: -2px 2px 2px #000;
+}
+
+.cert {
+	width: 75%;
+	height: 60px;
+	font-size: 20px;
+	padding-top: 16px;
+}
+
+
+.flip3d {
+  width: 240px;
+  height: 320px;
+  margin: 10px;
+	margin-bottom: 40px;
+
+}
+
+
+
+.html-cert {
+	background-image: url("Images/skills/html5.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.html-back {
+	background-image: url("Images/certs/HTML640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.css-cert {
+	background-image: url("Images/skills/css3.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.css-back {
+	background-image: url("Images/certs/CSS640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.javaScript-cert {
+	background-image: url("Images/skills/javascript.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.javaScript-back {
+	background-image: url("Images/certs/jS640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.git-cert {
+	background-image: url("Images/skills/github.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.git-back {
+	background-image: url("Images/certs/git-profile.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.es6-cert {
+	background-image: url("Images/skills/ES6.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.es6-back {
+	background-image: url("Images/certs/jS640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jquery-cert {
+	background-image: url("Images/skills/jquery.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jquery-back {
+	background-image: url("Images/certs/jQuery640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.flex-cert {
+	background-image: url("Images/skills/flexbox.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.flex-back {
+	background-image: url("Images/certs/Flexbox640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.react-cert {
+	background-image: url("Images/skills/react.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.react-back {
+	background-image: url("Images/certs/react640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wordpress-cert {
+	background-image: url("Images/skills/wordpress.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wordpress-back {
+	background-image: url("Images/certs/wordpress640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bootstrap-cert {
+	background-image: url("Images/skills/bootstrap.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bootstrap-back {
+	background-image: url("Images/certs/bootstrap640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.management-cert {
+	background-image: url("Images/skills/project-management.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.management-back {
+	background-image: url("Images/certs/MPM640.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nanodegree-cert {
+	background-image: url("Images/skills/GWG.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nanodegree-back {
+	background-image: url("Images/certs/GWG600.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.flip3d > .front {
+  position: absolute;
+  -webkit-transform: perspective( 600px ) rotateY( 0deg );
+  transform: perspective( 600px ) rotateY( 0deg );
+  width: 75%; height: 100%; border-radius: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .5s linear 0s;
+  transition: transform .5s linear 0s;
+
+  }
+
+  .flip3d > .back {
+    position: absolute;
+    -webkit-transform: perspective( 600px ) rotateY( 180deg );
+    transform: perspective( 600px ) rotateY( 180deg );
+    width: 75%; height: 100%; border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .5s linear 0s;
+    transition: transform .5s linear 0s;
+    }
+
+    .flip3d:hover > .front {
+      -webkit-transform: perspective( 600px ) rotateY( -180deg );
+      transform: perspective( 600px ) rotateY( -180deg );
+    }
+
+    .flip3d:hover > .back {
+      -webkit-transform: perspective( 600px ) rotateY( 0deg );
+      transform: perspective( 600px ) rotateY( 0deg );
+    }
+
+		/* =====================================  Contact ====================================== */
+
+		.contact-header {
+			font-weight: light;
+			font-size: 56px;
+			margin-top: 80px;
+			color: rgb(191, 195, 195);
+			text-shadow: -2px 2px 2px #000;
+		}
+
+
+		.input-group {
+			width: 100%;
+			margin-bottom: 32px;
+		}
+
+		.input-group-addon {
+			font-size: 32px;
+			height: 40px;
+		}
+
+		.form-control {
+			font-size: 24px;
+			height: 46px;
+		}
+
+
+		.contact-message {
+			color: black;
+			float: left;
+			margin-bottom: 32px;
+			width: 100%;
+		}
+
+		.email {
+			color: rgb(191, 195, 195);
+			text-shadow: -2px 2px 2px #000;
+			font-size: 40px;
+		}
