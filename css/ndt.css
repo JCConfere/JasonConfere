@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(209, 193, 193, 0.9) !important;
+    color: rgba(71, 49, 20,) !important;
+    line-height: 1.6;
+    font-size: 24px;
+
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.thumbnail {
+    background-color: rgba(14, 10, 10, 0.9) !important;
+    color: whitesmoke !important;
+
+}
+
+.caption {
+    text-align: center;
+    color: whitesmoke !important;
+}
+
+.bio {
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 60%;
+    height: auto;
+
+
+}
+
+.section {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.links {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}

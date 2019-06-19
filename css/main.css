@@ -247,171 +247,187 @@ a:link {
 
 
 .html-cert {
-	background-image: url("Images/skills/html5.png");
+	background-image: url("../Images/skills/html5.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .html-back {
-	background-image: url("Images/certs/HTML640.png");
+	background-image: url("../Images/certs/HTML640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .css-cert {
-	background-image: url("Images/skills/css3.png");
+	background-image: url("../Images/skills/css3.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .css-back {
-	background-image: url("Images/certs/CSS640.png");
+	background-image: url("../Images/certs/CSS640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .javaScript-cert {
-	background-image: url("Images/skills/javascript.png");
+	background-image: url("../Images/skills/javascript.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .javaScript-back {
-	background-image: url("Images/certs/jS640.png");
+	background-image: url("../Images/certs/jS640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .git-cert {
-	background-image: url("Images/skills/github.png");
+	background-image: url("../Images/skills/github.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .git-back {
-	background-image: url("Images/certs/git-profile.png");
+	background-image: url("../Images/certs/git-profile.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .es6-cert {
-	background-image: url("Images/skills/ES6.png");
+	background-image: url("../Images/skills/ES6.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .es6-back {
-	background-image: url("Images/certs/jS640.png");
+	background-image: url("../Images/certs/jS640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .jquery-cert {
-	background-image: url("Images/skills/jquery.png");
+	background-image: url("../Images/skills/jquery.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .jquery-back {
-	background-image: url("Images/certs/jQuery640.png");
+	background-image: url("../Images/certs/jQuery640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .flex-cert {
-	background-image: url("Images/skills/flexbox.png");
+	background-image: url("../Images/skills/flexbox.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .flex-back {
-	background-image: url("Images/certs/Flexbox640.png");
+	background-image: url("../Images/certs/Flexbox640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .react-cert {
-	background-image: url("Images/skills/react.png");
+	background-image: url("../Images/skills/react.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .react-back {
-	background-image: url("Images/certs/react640.png");
+	background-image: url("../Images/certs/react640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .wordpress-cert {
-	background-image: url("Images/skills/wordpress.png");
+	background-image: url("../Images/skills/wordpress.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .wordpress-back {
-	background-image: url("Images/certs/wordpress640.png");
+	background-image: url("../Images/certs/wordpress640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .bootstrap-cert {
-	background-image: url("Images/skills/bootstrap.png");
+	background-image: url("../Images/skills/bootstrap.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .bootstrap-back {
-	background-image: url("Images/certs/bootstrap640.png");
+	background-image: url("../Images/certs/bootstrap640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .management-cert {
-	background-image: url("Images/skills/project-management.jpg");
+	background-image: url("../Images/skills/project-management.jpg");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .management-back {
-	background-image: url("Images/certs/MPM640.png");
+	background-image: url("../Images/certs/MPM640.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .nanodegree-cert {
-	background-image: url("Images/skills/GWG.png");
+	background-image: url("../Images/skills/fend.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .nanodegree-back {
-	background-image: url("Images/certs/GWG600.png");
+	background-image: url("../Images/certs/fend.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.fcc-cert {
+	background-image: url("../Images/skills/fcc.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+  margin-left: 40px;
+}
+
+.fcc-back {
+	background-image: url("../Images/certs/fcc.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+  margin-left: 40px;
 }
 
 .flip3d > .front {
